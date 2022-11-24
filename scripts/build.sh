@@ -89,4 +89,3 @@ docker run -u "$(id -u):$(id -g)" \
 
 msg 'Build complete:'
 ls public
-msg 'build files'
