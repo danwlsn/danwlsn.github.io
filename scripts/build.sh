@@ -74,18 +74,13 @@ parse_params() {
 parse_params "$@"
 setup_colors
 
-APP_DIR="${script_dir}/.."
-PWD=$(pwd)
+DOCKER_WK_DIR="/app"
+APP_MOUNT="${script_dir}/..:${DOCKER_WK_DIR}"
 
 msg "${PURPLE}Building site:${NOFORMAT}"
 msg "- url: ${GREEN}${BASE_URL}${NOFORMAT}"
-msg "Script dir: ${script_dir}"
-msg "App dir: ${APP_DIR}"
-msg "PWD: ${PWD}"
-msg "ls app: $(ls ${APP_DIR})"
-msg "ls pwd: $(ls ${PWD})"
 
-# docker run -u "$(id -u):$(id -g)" \
-#     -v "${script_dir}/../:/app" --workdir /app \
-#     ghcr.io/getzola/zola:v0.16.0 \
-#     build --base-url $BASE_URL
+docker run -u "$(id -u):$(id -g)" \
+    -v $APP_MOUNT --workdir $DOCKER_WK_DIR \
+    ghcr.io/getzola/zola:v0.16.0 \
+    build --base-url $BASE_URL
