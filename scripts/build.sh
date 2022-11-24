@@ -76,8 +76,9 @@ setup_colors
 
 msg "${PURPLE}Building site:${NOFORMAT}"
 msg "- url: ${GREEN}${BASE_URL}${NOFORMAT}"
+msg "Script dir: ${scrip_dir}"
 
-docker run -u "$(id -u):$(id -g)" \
-    -v "${script_dir}/../:/app" --workdir /app \
-    ghcr.io/getzola/zola:v0.16.0 \
-    build --base-url $BASE_URL
+# docker run -u "$(id -u):$(id -g)" \
+#     -v "${script_dir}/../:/app" --workdir /app \
+#     ghcr.io/getzola/zola:v0.16.0 \
+#     build --base-url $BASE_URL
