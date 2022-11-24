@@ -75,10 +75,12 @@ parse_params "$@"
 setup_colors
 
 DOCKER_WK_DIR="/app"
-APP_MOUNT="${script_dir}/..:${DOCKER_WK_DIR}"
+PWD=$(pwd)
+APP_MOUNT="${PWD}:${DOCKER_WK_DIR}"
 
 msg "${PURPLE}Building site:${NOFORMAT}"
 msg "- url: ${GREEN}${BASE_URL}${NOFORMAT}"
+msg "Mount point: ${APP_MOUNT}"
 
 docker run -u "$(id -u):$(id -g)" \
     -v $APP_MOUNT --workdir $DOCKER_WK_DIR \
