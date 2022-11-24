@@ -82,7 +82,10 @@ msg "${PURPLE}Building site:${NOFORMAT}"
 msg "- url: ${GREEN}${BASE_URL}${NOFORMAT}"
 msg "Mount point: ${APP_MOUNT}"
 
-docker run -u "$(id -u):$(id -g)" \
-    -v $APP_MOUNT --workdir $DOCKER_WK_DIR \
-    ghcr.io/getzola/zola:v0.16.0 \
-    build --base-url $BASE_URL
+docker run -it --entrypoint /bin/ls -v $APP_MOUNT --workdir /app rust:slim /app
+
+
+# docker run -u "$(id -u):$(id -g)" \
+#     -v $APP_MOUNT --workdir $DOCKER_WK_DIR \
+#     ghcr.io/getzola/zola:v0.16.0 \
+#     build --base-url $BASE_URL
