@@ -74,9 +74,16 @@ parse_params() {
 parse_params "$@"
 setup_colors
 
+APP_DIR="${script_dir}/.."
+PWD=$(pwd)
+
 msg "${PURPLE}Building site:${NOFORMAT}"
 msg "- url: ${GREEN}${BASE_URL}${NOFORMAT}"
 msg "Script dir: ${script_dir}"
+msg "App dir: ${APP_DIR}"
+msg "PWD: ${PWD}"
+msg "ls app: $(ls ${APP_DIR})"
+msg "ls pwd: $(ls ${PWD})"
 
 # docker run -u "$(id -u):$(id -g)" \
 #     -v "${script_dir}/../:/app" --workdir /app \
