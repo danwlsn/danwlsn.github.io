@@ -75,18 +75,18 @@ parse_params "$@"
 setup_colors
 
 DOCKER_WK_DIR="/app"
-PWD=$(pwd)
-APP_MOUNT="${PWD}:${DOCKER_WK_DIR}"
+APP_DIR="${script_dir}/.."
+APP_MOUNT="${APP_DIR}:${DOCKER_WK_DIR}"
 
 msg "${PURPLE}Building site:${NOFORMAT}"
 msg "- url: ${GREEN}${BASE_URL}${NOFORMAT}"
 msg "Mount point: ${APP_MOUNT}"
 
-docker run --entrypoint /bin/ls -v $APP_MOUNT --workdir /app rust:slim /app
-docker run --entrypoint /bin/ls -v $APP_MOUNT --workdir /app rust:slim /app/themes/terminimal
+docker run -u "$(id -u):$(id -g)" \
+    -v $APP_MOUNT --workdir $DOCKER_WK_DIR \
+    ghcr.io/getzola/zola:v0.16.0 \
+    build --base-url $BASE_URL
 
-
-# docker run -u "$(id -u):$(id -g)" \
-#     -v $APP_MOUNT --workdir $DOCKER_WK_DIR \
-#     ghcr.io/getzola/zola:v0.16.0 \
-#     build --base-url $BASE_URL
+msg 'Build complete:'
+ls public
+msg 'build files'
