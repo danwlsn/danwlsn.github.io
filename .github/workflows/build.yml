@@ -12,3 +12,9 @@ jobs:
 
       - name: run build script
         run: ./scripts/build.sh -u build-test
+
+      - name: save artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: public
+          path: /app/public/
