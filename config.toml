@@ -1,6 +1,10 @@
 # The URL the site will be built for
 base_url = "https://danwlsn.github.io"
 
+# title + description
+title = "man dwlsn"
+description = "Personal website of Dan Wilson the Software Engineer"
+
 # theme
 theme = "terminimal"
 
@@ -12,6 +16,7 @@ build_search_index = true
 
 # Build RSS feed
 generate_feed = true
+feed_filename = "rss.xml"
 
 taxonomies = [
     {name = "tags"},
@@ -22,6 +27,7 @@ taxonomies = [
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
+highlight_theme = "1337"
 
 [extra]
 # Put all your custom variables here
@@ -38,15 +44,9 @@ logo_text = "$ man dwlsn"
 
 # menu is enabled by adding menu_items (optional)
 menu_items = [
-    # each of these is optional, name and url are required
-    # $BASE_URL is going to be substituted by base_url from configuration
-    {name = "posts", url = "$BASE_URL/posts"},
-    
-    # tags should only be enabled if you have "tags" taxonomy
-    # see documentation below for more details
-    {name = "tags", url = "$BASE_URL/tags"},
-    # {name = "archive", url = "$BASE_URL/archive"},
     {name = "about", url = "$BASE_URL/about"},
+    {name = "posts", url = "$BASE_URL/posts"},
+    {name = "tags", url = "$BASE_URL/tags"},
     {name = "now", url = "$BASE_URL/now"},
 ]
 socials = [
@@ -54,3 +54,7 @@ socials = [
     {name = "mastodon", url = "https://hachyderm.io/web/@wlsn", newtab = true},
     {name = "email", url = "mailto:dwlsn@pm.me?subject=RE:danwilson.co", newtab = true},
 ]
+
+
+# page title
+page_titles = "combined"

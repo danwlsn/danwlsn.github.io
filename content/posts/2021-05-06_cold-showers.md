@@ -1,5 +1,6 @@
 +++
 title = "Cold showers"
+authors = ["Dan Wilson"]
 
 [taxonomies]
 tags = ["lpt"]

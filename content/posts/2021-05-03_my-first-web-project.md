@@ -1,5 +1,6 @@
 +++
 title = "My first web project"
+authors = ["Dan Wilson"]
 
 [taxonomies]
 tags = ["personal"]

@@ -1,5 +1,6 @@
 +++
 title = "Read more poetry"
+authors = ["Dan Wilson"]
 
 [taxonomies]
 tags = ["lpt"]

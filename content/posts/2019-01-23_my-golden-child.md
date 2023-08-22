@@ -1,5 +1,6 @@
 +++
 title = "My golden child"
+authors = ["Dan Wilson"]
 
 [taxonomies]
 tags = ["personal", "projects"]

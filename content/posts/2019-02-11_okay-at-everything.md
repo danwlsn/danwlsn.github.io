@@ -1,5 +1,6 @@
 +++
 title = "I hate not being good at things, but I don’t mind being “Okay” at everything"
+authors = ["Dan Wilson"]
 
 [taxonomies]
 tags = ["personal"]

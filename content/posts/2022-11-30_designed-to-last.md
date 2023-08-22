@@ -1,5 +1,6 @@
 +++
 title = "This page is designed to last"
+authors = ["Dan Wilson"]
 draft = true
 +++
 
