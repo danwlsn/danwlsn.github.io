@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>man dwlsn</title>
+      <link>https://danwlsn.github.io</link>
+      <description>Personal website of Dan Wilson the Software Engineer</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://danwlsn.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 22 Aug 2023 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>This page is designed to last</title>
+          <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+          <author>Dan Wilson</author>
+          <link>https://danwlsn.github.io/posts/designed-to-last/</link>
+          <guid>https://danwlsn.github.io/posts/designed-to-last/</guid>
+          <description>&lt;p&gt;I&#x27;ve had a blog or personal site for as long as I have been programming now. However it has never lasted. And in multiple aspects. The habit of writing posts and publishing them hasn&#x27;t lasted and the neither did the site. It&#x27;s changed domains, URLs, hosting providers, you name it. &lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>July 2023</title>
+          <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+          <author>Dan Wilson</author>
+          <link>https://danwlsn.github.io/now/july-2023/</link>
+          <guid>https://danwlsn.github.io/now/july-2023/</guid>
+          <description>&lt;h1 id=&quot;july-2023&quot;&gt;July 2023&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Looking for a job that helps tackle climate change&lt;&#x2F;li&gt;
+&lt;li&gt;Updating this website&lt;&#x2F;li&gt;
+&lt;li&gt;Climbing hard&lt;&#x2F;li&gt;
+&lt;li&gt;Learning Go&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>December 2022</title>
+          <pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
+          <author>Dan Wilson</author>
+          <link>https://danwlsn.github.io/now/dec-2022/</link>
+          <guid>https://danwlsn.github.io/now/dec-2022/</guid>
+          <description>&lt;h1 id=&quot;december-2022&quot;&gt;December 2022&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Starting a new job with DA Languages&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>November 2022</title>
+          <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+          <author>Dan Wilson</author>
+          <link>https://danwlsn.github.io/now/nov-2022/</link>
+          <guid>https://danwlsn.github.io/now/nov-2022/</guid>
+          <description>&lt;h1 id=&quot;november-2022&quot;&gt;November 2022&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Updating my website&lt;&#x2F;li&gt;
+&lt;li&gt;Looking for work&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>October 2021-2022</title>
+          <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+          <author>Dan Wilson</author>
+          <link>https://danwlsn.github.io/now/oct-2022/</link>
+          <guid>https://danwlsn.github.io/now/oct-2022/</guid>
+          <description>&lt;h1 id=&quot;october-2021-2022&quot;&gt;October 2021-2022&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;betting on crypto&lt;&#x2F;li&gt;
+&lt;li&gt;recovering from burn out&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>Read more poetry</title>
+          <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+          <author>Dan Wilson</author>
+          <link>https://danwlsn.github.io/posts/read-more-poetry/</link>
+          <guid>https://danwlsn.github.io/posts/read-more-poetry/</guid>
+          <description>&lt;p&gt;I used to find books very intimidating. It would take me a days or weeks to just make a dent in one. I used to not be able to see the light at the end of the tunnel, or the wisdom and knowledge that might be waiting for me in a few more chapters. It wasn&#x27;t until I decided to try reading A Game of Thrones that I got used to the discomfort of having a million pages to go. I couldn&#x27;t tell you how long it took me but something changed in my after reading that book.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Cold showers</title>
+          <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+          <author>Dan Wilson</author>
+          <link>https://danwlsn.github.io/posts/cold-showers/</link>
+          <guid>https://danwlsn.github.io/posts/cold-showers/</guid>
+          <description>&lt;p&gt;A few years back while on holiday in France, I realised that if I washed my hair in a cold shower it would look great the next day. So for the next two weeks, I had a cold shower every morning. And of course, everyday was a great hair day. I was excited to continue my new hair routine when I got home but I soon found that cold showers in a cold country wasn&#x27;t easy. I quickly went back to hot showers and had to find a new way to get my hair to look good.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>My first web project</title>
+          <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+          <author>Dan Wilson</author>
+          <link>https://danwlsn.github.io/posts/my-first-web-project/</link>
+          <guid>https://danwlsn.github.io/posts/my-first-web-project/</guid>
+          <description>&lt;p&gt;I was shocked to realise that I&#x27;ve been writing code for 10 years now. I remember the first web project I took on. My college class was set out to create a website for a client. By client they meant some local business that needed a brochure website. I had other ideas so I went straight to my film maker friend Lewis Hancock. One of the requirements was to get paid for your work. Lewis, being a film maker, had no money. And me, being a good friend, wanted to make it fair. The deal was set; one website for one copy of Halo 3: ODST. The worst Halo game ever.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>I hate not being good at things, but I don’t mind being “Okay” at everything</title>
+          <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+          <author>Dan Wilson</author>
+          <link>https://danwlsn.github.io/posts/okay-at-everything/</link>
+          <guid>https://danwlsn.github.io/posts/okay-at-everything/</guid>
+          <description>&lt;p&gt;I’ve always struggled with being bad at things. I’m notorious for it. But something happens to me when I’m terrible at something. I get this deep inner burn that say just one thing:&lt;&#x2F;p&gt;
+&lt;p&gt;“You need to the the best at this right now”&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>My golden child</title>
+          <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
+          <author>Dan Wilson</author>
+          <link>https://danwlsn.github.io/posts/my-golden-child/</link>
+          <guid>https://danwlsn.github.io/posts/my-golden-child/</guid>
+          <description>&lt;p&gt;I built a coffee cam for my previous job at BJL. It was a Raspberry pi with a camera attached to it. A bash script would take a picture every thirty seconds and post the pictures to an API. The backend was run from Django. And this is where it gets interesting&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
