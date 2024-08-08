@@ -17,4 +17,4 @@ jobs:
       - name: Printing
         run: |
           content=`cat ${{steps.diff.outputs.added}}`
-          echo ${content}
+          curl --location --request POST --header 'Authorization: Bearer ${{ secrets.OMG_LOL_API_KEY }}' 'https://api.omg.lol/address/foobar/now' --data '{"content": ${content}'
