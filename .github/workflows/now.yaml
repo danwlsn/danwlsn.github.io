@@ -19,5 +19,5 @@ jobs:
         run: |
           content=`cat ${{steps.diff.outputs.modified}}`
           payload='{"content": "${content}"}'
-          echo payload
+          echo ${payload}
           # curl --location --request POST --header 'Authorization: Bearer ${{ secrets.OMG_LOL_API_KEY }}' 'https://api.omg.lol/address/wlsn/now' --data '{"content": "${content}"'
