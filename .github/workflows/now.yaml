@@ -15,6 +15,9 @@ jobs:
           format: space-delimited
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Printing
+        # TODO change modified to added
         run: |
-          content=`cat ${{steps.diff.outputs.added}}`
-          curl --location --request POST --header 'Authorization: Bearer ${{ secrets.OMG_LOL_API_KEY }}' 'https://api.omg.lol/address/wlsn/now' --data '{"content": "${content}"'
+          content=`cat ${{steps.diff.modified.added}}`
+          payload='{"content": "${content}"}'
+          echo payload
+          # curl --location --request POST --header 'Authorization: Bearer ${{ secrets.OMG_LOL_API_KEY }}' 'https://api.omg.lol/address/wlsn/now' --data '{"content": "${content}"'
