@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://danwlsn.github.io"
+base_url = "https://danwilson.co"
 
 # title + description
 title = "man dwlsn"
@@ -15,8 +15,8 @@ compile_sass = true
 build_search_index = true
 
 # Build RSS feed
-generate_feed = true
-feed_filename = "rss.xml"
+generate_feeds = true
+feed_filenames = ["atom.xml"]
 
 taxonomies = [
     {name = "tags"},
@@ -36,8 +36,7 @@ highlight_theme = "1337"
 date_format = "%a, %d %b %Y"
 
 #theme colours
-accent_color = "red"
-background_color = "red"
+accent_color = "pink"
 
 # The logo text - defaults to "Terminimal theme"
 logo_text = "$ man dwlsn"
