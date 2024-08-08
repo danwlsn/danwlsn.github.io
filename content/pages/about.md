@@ -2,16 +2,17 @@
 title = "about"
 path = "about"
 +++
-I'm a programmer from the UK. I believe I was put on this planet to help combat climate change with technology. Mainly due to climate change being the biggest problem we face, and programming being my greatest skill.
+I'm a programmer from the UK. I believe climate change is the biggest threat we face right now.
 
 
 ## History
-I've being interested in technology since getting an IBM running MS DOS. I had the machine, a floppy disk of Lemmings, and determination. This was all the problem solver insider of me needed for a challenge; run the game. I would continue to be able to quickly understand technology as it grew throughout my childhood. From handheld camcorders to the latest phones to my mums dance studio software running on OSX, an operating system I'd never seen before.
+I've being interested in technology for as long as I can remember. Spanning every nook of tech; from handheld camcorders to the latest phones to my mums dance studio software running on OSX. And now specialising in software development but also getting my hands dirty with a DIY homelab.
 
-It wasn't until later that this seed sprouted and started growing rapidly when I learnt to build websites in college and studied programming at university. Graduating into the working world as a frontend developer. Using my free time to build tools for my job and learn different programming languages. Making my way into backend development and infrastructure management. Eventually arriving at today; where I'm still learning how to be a great software engineer and pursuing a career with a company to help tackle climate change. 
+Right now my day job is filled up with programming distributed systems in Python and configuring Emacs.
+
 
 ## This site
-The internet is going through a little Renaissance at the moment. People are moving back to reading blogs through RSS feeds, pockets of social media space are opening up in the Fediverse to curate niche conversations, the walled gardens are starting to crack and crumble. We have gone back to carving out our own sections of the internet. And this one is mine. Here you will be able to read what I'm thinking about in Posts, expect topics to cover programming, software and tooling, and life pro tips I'm trying to teach myself. And see what I’m up to Now, where I will keep a running log what I’m working on and what I’ve accomplished. 
+The internet is going through a little Renaissance at the moment. People are moving back to reading blogs through RSS feeds, pockets of social media space are opening up in the Fediverse to curate niche conversations, the walled gardens are starting to crack and crumble. We have gone back to carving out our own sections of the internet. And this one is mine. 
 
 
 ## Outside
