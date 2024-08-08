@@ -50,7 +50,6 @@ menu_items = [
 ]
 socials = [
     {name = "github", url = "https://github.com/danwlsn", newtab = true},
-    {name = "mastodon", url = "https://hachyderm.io/web/@wlsn", newtab = true},
     {name = "email", url = "mailto:dwlsn@pm.me?subject=RE:danwilson.co", newtab = true},
 ]
 
