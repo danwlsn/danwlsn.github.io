@@ -22,5 +22,5 @@ jobs:
         CLILOL_APIKEY: ${{ secrets.OMG_LOL_API_KEY }}
         CLILOL_EMAIL: ${{ secrets.OMG_LOL_API_EMAIL }}
       steps:
-      - name: list_purls
-        run: list purls
+        - name: list_purls
+          run: list purls
