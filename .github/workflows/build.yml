@@ -15,11 +15,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   omglol:
     runs-on: ubuntu-latest
+    env:
+      CLILOL_ADDRESS: "${{ secrets.OMG_LOL_API_ADDR }}"
+      CLILOL_EMAIL: "${{ secrets.OMG_LOL_API_EMAIL }}"
+      CLILOL_APIKEY: "${{ secrets.OMG_LOL_API_KEY }}"
     steps:
       - uses: actions/setup-go@v5
       - run: go install github.com/mcornick/clilol@latest
-      - run: |
-          export CLILOL_ADDRESS="${{ secrets.OMG_LOL_API_ADDR }}" \
-          export CLILOL_EMAIL="${{ secrets.OMG_LOL_API_EMAIL }}" \
-          export CLILOL_APIKEY="${{ secrets.OMG_LOL_API_KEY }}"
       - run: clilol list purls
