@@ -9,7 +9,8 @@ path = "cv"
 
 ## Links
 * [CV API](https://cv.danwilson.co) and [CV API documentation](https://cv.danwilson.co/docs)
-* GitHub repository _coming soon_
+* [GitHub repository](https://github.com/danwlsn/cv/)
+* [Latest PDF](https://github.com/danwlsn/cv/blob/main/pdf/cv-latest.pdf)
 
 ## Why?
 ### Long answer
