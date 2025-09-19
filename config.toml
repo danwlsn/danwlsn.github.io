@@ -44,6 +44,7 @@ logo_text = "$ man dwlsn"
 # menu is enabled by adding menu_items (optional)
 menu_items = [
     {name = "about", url = "$BASE_URL/about"},
+    {name = "cv", url = "$BASE_URL/cv"},
     {name = "posts", url = "$BASE_URL/posts"},
     {name = "tags", url = "$BASE_URL/tags"},
     {name = "now", url = "$BASE_URL/now"},
