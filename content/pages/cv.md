@@ -1,5 +1,5 @@
 +++
-title = "cv"
+title = "CV"
 path = "cv"
 +++
 ## tldr
@@ -8,9 +8,9 @@ path = "cv"
 * Accessabile via an API using FastAPI
 
 ## Links
-* [CV API](https://cv.danwilson.co) and [CV API documentation](https://cv.danwilson.co/docs)
 * [GitHub repository](https://github.com/danwlsn/cv/)
 * [Latest PDF](https://github.com/danwlsn/cv/blob/main/pdf/cv-latest.pdf)
+* [CV API](https://cv.danwilson.co) and [CV API documentation](https://cv.danwilson.co/docs)
 
 ## Why?
 ### Long answer
@@ -24,8 +24,14 @@ With the progression of Ai technologies and my exposure to that, I wanted to swi
 For fun
 
 ## Reasoning
-### YAMLResume or JSONResume
+
+### YAMLResume or JSONResume
 * YAML is nicer to write and maintain
 
-### FastAPI or Flask
+### FastAPI or Flask
 * Open API docs out of the box allowing for easier integration with an Agent
+
+
+## cv.yaml
+<iframe frameborder="0" scrolling="no" style="width:100%; height:618px;" allow="clipboard-write" src="https://emgithub.com/iframe.html?target=https%3A%2F%2Fgithub.com%2Fdanwlsn%2Fcv%2Fblob%2Fmain%2Fcv.yaml&style=base16%2Fdark-violet&type=code&showBorder=on&showLineNumbers=on&showFullPath=on&maxHeight=600"></iframe>
+
