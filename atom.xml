@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>man dwlsn</title>
+    <subtitle>Personal website of Dan Wilson the Software Engineer</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://danwilson.co/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://danwilson.co"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-09-22T00:00:00+00:00</updated>
+    <id>https://danwilson.co/atom.xml</id>
+    <entry xml:lang="en">
+        <title>September 2024</title>
+        <published>2025-09-22T00:00:00+00:00</published>
+        <updated>2025-09-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/now/sept-2025/"/>
+        <id>https://danwilson.co/now/sept-2025/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/now/sept-2025/">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Reading - &lt;a href=&quot;https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;22155.Let_My_People_Go_Surfing&quot;&gt;Let My People Go Surfing&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Patagonia founder Yvon Chouinard recalls his days starting the company&lt;&#x2F;li&gt;
+&lt;li&gt;It&#x27;s getting my psyched on using my skills to better the world again&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Working - Building clients projects in Google Cloud&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Life - Raising my son as best I can&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;2025 was the year I became a father&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>2024 Review</title>
+        <published>2025-01-09T00:00:00+00:00</published>
+        <updated>2025-01-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/2024-review/"/>
+        <id>https://danwilson.co/posts/2024-review/</id>
+        
+        <summary type="html">&lt;p&gt;I&#x27;m not sure I remember the last time I did one of these, but I&#x27;ve kept enough notes and had a big enough year that I feel like I have something to talk about here. Since getting a copy of Tools of Titan by Tim Ferriss I can&#x27;t stop thinking about the split of Healthy, Wealthy and Wise. It&#x27;s been my go to for categorisation of goals, habits, priorities. And I think it requires little explanation about what  each might entail. So I&#x27;ve used those as subheadings so you may skip what you like.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>August 2024</title>
+        <published>2024-08-08T00:00:00+00:00</published>
+        <updated>2024-08-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/now/aug-2024/"/>
+        <id>https://danwilson.co/now/aug-2024/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/now/aug-2024/">&lt;ul&gt;
+&lt;li&gt;Helping companies migrate services to Google Cloud&lt;&#x2F;li&gt;
+&lt;li&gt;Reading about Fear and Politics - &lt;a href=&quot;https:&#x2F;&#x2F;algore.com&#x2F;library&#x2F;the-assault-on-reason&quot;&gt;The Assault on Reason&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Building a homelab&lt;&#x2F;li&gt;
+&lt;li&gt;Working on &lt;a href=&quot;https:&#x2F;&#x2F;cragconditions.com&quot;&gt;Crag Conditions&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Task management</title>
+        <published>2023-09-05T00:00:00+00:00</published>
+        <updated>2023-09-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/tasks/"/>
+        <id>https://danwilson.co/posts/tasks/</id>
+        
+        <summary type="html">&lt;p&gt;I&#x27;ve always had an interest in personal productivity. Up until you spend more time reading and learning about how to be productive than being productive. I would spend hours researching task managmnet apps and systems to only abandon them a few months down the line. The last time thought I decided to venture out and theorise about a system that would work for me, and here&#x27;s what I came up with.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>This page is designed to last</title>
+        <published>2023-08-22T00:00:00+00:00</published>
+        <updated>2023-08-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/designed-to-last/"/>
+        <id>https://danwilson.co/posts/designed-to-last/</id>
+        
+        <summary type="html">&lt;p&gt;I&#x27;ve had a blog or personal site for as long as I have been programming now. However it has never lasted. And in multiple aspects. The habit of writing posts and publishing them hasn&#x27;t lasted and the neither did the site. It&#x27;s changed domains, URLs, hosting providers, you name it.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>July 2023</title>
+        <published>2023-07-25T00:00:00+00:00</published>
+        <updated>2023-07-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/now/july-2023/"/>
+        <id>https://danwilson.co/now/july-2023/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/now/july-2023/">&lt;h1 id=&quot;july-2023&quot;&gt;July 2023&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Looking for a job that helps tackle climate change&lt;&#x2F;li&gt;
+&lt;li&gt;Updating this website&lt;&#x2F;li&gt;
+&lt;li&gt;Climbing hard&lt;&#x2F;li&gt;
+&lt;li&gt;Learning Go&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>December 2022</title>
+        <published>2022-12-18T00:00:00+00:00</published>
+        <updated>2022-12-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/now/dec-2022/"/>
+        <id>https://danwilson.co/now/dec-2022/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/now/dec-2022/">&lt;h1 id=&quot;december-2022&quot;&gt;December 2022&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Starting a new job with DA Languages&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>November 2022</title>
+        <published>2022-11-21T00:00:00+00:00</published>
+        <updated>2022-11-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/now/nov-2022/"/>
+        <id>https://danwilson.co/now/nov-2022/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/now/nov-2022/">&lt;h1 id=&quot;november-2022&quot;&gt;November 2022&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Updating my website&lt;&#x2F;li&gt;
+&lt;li&gt;Looking for work&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>October 2021-2022</title>
+        <published>2022-10-01T00:00:00+00:00</published>
+        <updated>2022-10-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/now/oct-2022/"/>
+        <id>https://danwilson.co/now/oct-2022/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/now/oct-2022/">&lt;h1 id=&quot;october-2021-2022&quot;&gt;October 2021-2022&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;betting on crypto&lt;&#x2F;li&gt;
+&lt;li&gt;recovering from burn out&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Read more poetry</title>
+        <published>2021-06-29T00:00:00+00:00</published>
+        <updated>2021-06-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/read-more-poetry/"/>
+        <id>https://danwilson.co/posts/read-more-poetry/</id>
+        
+        <summary type="html">&lt;p&gt;I used to find books very intimidating. It would take me a days or weeks to just make a dent in one. I used to not be able to see the light at the end of the tunnel, or the wisdom and knowledge that might be waiting for me in a few more chapters. It wasn&#x27;t until I decided to try reading A Game of Thrones that I got used to the discomfort of having a million pages to go. I couldn&#x27;t tell you how long it took me but something changed in my after reading that book.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cold showers</title>
+        <published>2021-05-06T00:00:00+00:00</published>
+        <updated>2021-05-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/cold-showers/"/>
+        <id>https://danwilson.co/posts/cold-showers/</id>
+        
+        <summary type="html">&lt;p&gt;A few years back while on holiday in France, I realised that if I washed my hair in a cold shower it would look great the next day. So for the next two weeks, I had a cold shower every morning. And of course, everyday was a great hair day. I was excited to continue my new hair routine when I got home but I soon found that cold showers in a cold country wasn&#x27;t easy. I quickly went back to hot showers and had to find a new way to get my hair to look good.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>My first web project</title>
+        <published>2021-05-03T00:00:00+00:00</published>
+        <updated>2021-05-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/my-first-web-project/"/>
+        <id>https://danwilson.co/posts/my-first-web-project/</id>
+        
+        <summary type="html">&lt;p&gt;I was shocked to realise that I&#x27;ve been writing code for 10 years now. I remember the first web project I took on. My college class was set out to create a website for a client. By client they meant some local business that needed a brochure website. I had other ideas so I went straight to my film maker friend Lewis Hancock. One of the requirements was to get paid for your work. Lewis, being a film maker, had no money. And me, being a good friend, wanted to make it fair. The deal was set; one website for one copy of Halo 3: ODST. The worst Halo game ever.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>I hate not being good at things, but I don’t mind being “Okay” at everything</title>
+        <published>2019-02-11T00:00:00+00:00</published>
+        <updated>2019-02-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/okay-at-everything/"/>
+        <id>https://danwilson.co/posts/okay-at-everything/</id>
+        
+        <summary type="html">&lt;p&gt;I’ve always struggled with being bad at things. I’m notorious for it. But something happens to me when I’m terrible at something. I get this deep inner burn that say just one thing:&lt;&#x2F;p&gt;
+&lt;p&gt;“You need to the the best at this right now”&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>My golden child</title>
+        <published>2019-01-23T00:00:00+00:00</published>
+        <updated>2019-01-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/my-golden-child/"/>
+        <id>https://danwilson.co/posts/my-golden-child/</id>
+        
+        <summary type="html">&lt;p&gt;I built a coffee cam for my previous job at BJL. It was a Raspberry pi with a camera attached to it. A bash script would take a picture every thirty seconds and post the pictures to an API. The backend was run from Django. And this is where it gets interesting&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
