@@ -2,11 +2,11 @@
 base_url = "https://danwilson.co"
 
 # title + description
-title = "man dwlsn"
+title = "$ man dwlsn"
 description = "Personal website of Dan Wilson the Software Engineer"
 
 # theme
-theme = "terminimal"
+theme = "zola-bearblog"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -21,6 +21,17 @@ feed_filenames = ["atom.xml"]
 taxonomies = [
     {name = "tags"},
 ]
+default_language = "en"
+
+[translations]
+no_posts = "No posts yet"
+remove_filter = "Remove filter"
+filtering_for = "Filtering for"
+made_with = "Made with"
+table_of_contents = "Table of contents"
+language = "language"
+site = "site"
+
 
 
 [markdown]
@@ -31,30 +42,21 @@ highlight_theme = "1337"
 
 [extra]
 # Put all your custom variables here
+translations = [
+  { code = "en", name = "English" },
+]
 
 # date string format
-date_format = "%a, %d %b %Y"
-
-#theme colours
-accent_color = "pink-light"
-background_color = "light"
-
-# The logo text - defaults to "Terminimal theme"
-logo_text = "$ man dwlsn"
+date_format = "%d %b %Y"
 
 # menu is enabled by adding menu_items (optional)
-menu_items = [
-    {name = "about", url = "$BASE_URL/about"},
-    {name = "cv", url = "$BASE_URL/cv"},
-    {name = "posts", url = "$BASE_URL/posts"},
-    {name = "tags", url = "$BASE_URL/tags"},
-    {name = "now", url = "$BASE_URL/now"},
+blog_list = "@/posts/_index.md"
+main_menu = [
+    {name = "about", url = "@/pages/about.md"},
+    {name = "cv", url = "@/pages/cv.md"},
+    {name = "posts", url = "@/posts/_index.md"},
+    {name = "now", url = "@/now/_index.md"},
 ]
-socials = [
-    {name = "github", url = "https://github.com/danwlsn", newtab = true},
-    {name = "email", url = "mailto:dwlsn@pm.me?subject=RE:danwilson.co", newtab = true},
-]
-
 
 # page title
 page_titles = "combined"

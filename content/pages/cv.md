@@ -1,5 +1,5 @@
 +++
-title = "CV"
+title = "curriculum vitae"
 path = "cv"
 +++
 ## tldr
@@ -8,9 +8,9 @@ path = "cv"
 * Accessabile via an API using FastAPI
 
 ## Links
-* [GitHub repository](https://github.com/danwlsn/cv/)
 * [Latest PDF](https://github.com/danwlsn/cv/blob/main/pdf/cv-latest.pdf)
 * [CV API](https://cv.danwilson.co) and [CV API documentation](https://cv.danwilson.co/docs)
+* [GitHub repository](https://github.com/danwlsn/cv/)
 
 ## Why?
 ### Long answer
