@@ -36,7 +36,8 @@ highlight_theme = "1337"
 date_format = "%a, %d %b %Y"
 
 #theme colours
-accent_color = "pink"
+accent_color = "pink-light"
+background_color = "light"
 
 # The logo text - defaults to "Terminimal theme"
 logo_text = "$ man dwlsn"
