@@ -57,6 +57,7 @@ main_menu = [
     {name = "posts", url = "@/posts/_index.md"},
     {name = "now", url = "@/now/_index.md"},
     {name = "ideas", url = "@/ideas/_index.md"},
+    {name = "colophon", url = "@/pages/colophon.md"},
 ]
 
 # page title
