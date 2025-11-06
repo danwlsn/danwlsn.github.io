@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task management | $ man dwlsn</title>
+  <meta name="title" content="Task management">
+<meta name="description" content="Personal website of Dan Wilson the Software Engineer">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+  
+  <link rel="alternate" type="application/atom+xml" title="$ man dwlsn" href="https://danwilson.co/atom.xml">
+  <style>
+    :root {
+    --width: 800px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  nav span.active {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  pre code {
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+    overflow-x: auto;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  /* blog post list */
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+  .tags {
+    font-size: smaller;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+  <a href="https://danwilson.co/" class="title">
+    <h1>$ man dwlsn</h1>
+  </a>
+  <nav aria-label="site">
+      <a href="https://danwilson.co/about/">about</a>
+      <a href="https://danwilson.co/cv/">cv</a>
+      <a href="https://danwilson.co/posts/">posts</a>
+      <a href="https://danwilson.co/now/">now</a>
+      <a href="https://danwilson.co/ideas/">ideas</a>
+      <a href="https://danwilson.co/colophon/">colophon</a>
+  </nav>
+</header>
+<h1>Task management</h1>
+      <p>
+        <i>
+          <time datetime="2023-09-05T00:00:00+00:00" pubdate>05 Sep 2023</time>
+        </i>
+      </p>
+  <main>
+    <p>I've always had an interest in personal productivity. Up until you spend more time reading and learning about how to be productive than being productive. I would spend hours researching task managmnet apps and systems to only abandon them a few months down the line. The last time thought I decided to venture out and theorise about a system that would work for me, and here's what I came up with.</p>
+<span id="continue-reading"></span><h2 id="lists">Lists</h2>
+<p>There are things I like about the Get Things Done methodology. The main one being that your task managment system should be able to capture things that you need to do in the future. Another idea I like about task mangment is the idea of a "Do list". This is is a list of tasks that we're in the process of doing right now. So I boiled my system down to two lists; <strong>Now</strong> and <strong>Later</strong>.</p>
+<p><strong>Now</strong> is what you are doing now or something that needs doing now. <strong>Later</strong> is something that needs doing in the near future. I have these as sections on the same list so I can easily see everyything I need to focus on. It also me to quick bump up the priority on a task when then now list is empty, or move some things out of my Now list should it get to busy.</p>
+<h3 id="someday">Someday</h3>
+<p>There are actually three lists, I have a *<em>Someday</em> list for when my <strong>Later</strong> list gets too big and needs cutting down. Or if I like an idea but know I won't action it in the next month or so. It can be overwhelming the amount of things that need doing. And because I have both my now and later in one list, I like to have a place to dump the stuff that isn't imporant but will at some point become important.</p>
+<h2 id="tools">Tools</h2>
+<h3 id="reminders">Reminders</h3>
+<p>Now we have the lists definied how do we manage these? A while ago I went all the way back to Apple reminders. It's free, it has notifications and repeating tasks, and it syncs well. It worked for a while but I ran into some shortcomings. Mainly around checklists or sublists. I wasn't a fan of the managment of these and I often use them to break down bigger tasks. Another was I wanted an easy way to see both my now and later lists.</p>
+<h3 id="trello">Trello</h3>
+<p>As well as Apple Reminders, Trello has been in my life since my productivity phase begin when I got my first Mac. I've used it for a number of things, from moving house to keeping a pantry inventory and shopping list. I use trello for bigger and shared projects. Where something might take a while to move from doing to done.</p>
+
+  </main>
+  <p>
+        Tags:
+          <a href="https://danwilson.co/tags/lpt/">#lpt</a>
+  </p>
+<footer>
+  Built using <a href="https://www.getzola.org/">Zola</a> skinned like <a href="https://codeberg.org/alanpearce/zola-bearblog">Bear</a>
+  <br>
+  <a href="https://bearblog.dev/">Not powered by Bear ʕ•ᴥ•ʔ</a>
+</footer>
+<script data-goatcounter="https://wlsn.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>

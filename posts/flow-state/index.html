@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flow state | $ man dwlsn</title>
+  <meta name="title" content="flow state">
+<meta name="description" content="Personal website of Dan Wilson the Software Engineer">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+  
+  <link rel="alternate" type="application/atom+xml" title="$ man dwlsn" href="https://danwilson.co/atom.xml">
+  <style>
+    :root {
+    --width: 800px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  nav span.active {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  pre code {
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+    overflow-x: auto;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  /* blog post list */
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+  .tags {
+    font-size: smaller;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+  <a href="https://danwilson.co/" class="title">
+    <h1>$ man dwlsn</h1>
+  </a>
+  <nav aria-label="site">
+      <a href="https://danwilson.co/about/">about</a>
+      <a href="https://danwilson.co/cv/">cv</a>
+      <a href="https://danwilson.co/posts/">posts</a>
+      <a href="https://danwilson.co/now/">now</a>
+      <a href="https://danwilson.co/ideas/">ideas</a>
+      <a href="https://danwilson.co/colophon/">colophon</a>
+  </nav>
+</header>
+<h1>flow state</h1>
+      <p>
+        <i>
+          <time datetime="2025-11-06T00:00:00+00:00" pubdate>06 Nov 2025</time>
+        </i>
+      </p>
+  <main>
+    <p>I make two coffees every morning. I make one filter coffee for me and my girlfriend to enjoy in bed, and then I make a flat white for us to enjoy later. The two methods of making each coffee is very different. For those who don't know, I'll describe briefly:</p>
+<h2 id="filter">Filter:</h2>
+<ol>
+<li>Put the kettle on and grind the beans</li>
+<li>Prepare the V60 and the jug</li>
+<li>Pour 100g of boiling water over the grounds and stir</li>
+<li>Pour another 200g of water over the grounds, stir, and wait to drain</li>
+<li>Pour another 200g of water over the grounds, stir, and wait to drain</li>
+</ol>
+<h2 id="flat-white">Flat white</h2>
+<ol>
+<li>Start the espresso machine</li>
+<li>Weigh out 2 lots of 18g beans</li>
+<li>Grind the first batch of coffee and pre-heat the machine</li>
+<li>Load the basket, tamp, and pull the first shot</li>
+<li>While the shot is on, grind the next batch of beans. Prepare the milk jug</li>
+<li>First shot finish, knock out and rinse the basket, and flush the machine</li>
+<li>Load the basket, tamp, and pull the second shot</li>
+<li>Second shot finish, knock out and rinse the basket, flush the machine</li>
+<li>Clean the machine</li>
+<li>Steam milk</li>
+<li>Clean the steam wand</li>
+<li>Pour the milk</li>
+</ol>
+<p>I find these two rituals very different in nature. For the filter coffee, each step gradually leads into the next. Allowing you to fully focus on each step in hand. However, there's some amount of down time. Boiling the kettle takes longer than preparing the beans and the jug. 200g of water can take a couple of minutes to drain through. There's lulls.</p>
+<p>Flat white, you are usually doing a couple of things at any given time. You have just enough time to prepare the next shot, maybe wipe a surface, and your shot is done. It's a fast paced choreography. Lots of buttons to press, lots of things to do. While it's a lot of well timed beats to hit, those beats are consistent. The grind time is the same. The shot time is the same. The buttons are in the same place each time. This reminds me of vim motions. I have to press a few keys to change inside quotes, but <code>ci"</code> is muscle memory - the keys are always in the same position on my keyboard.</p>
+<p>I find flow state in the flat white easier than the filter. And that maps to my development environment. I like Vim because there's buttons to press. I like tmux because i can run something, switch to another pane, and do something else while the other thing is running. I'm a keyboard centric person so I can do things <em>blazingly</em> fast.</p>
+<p>But at the same time, I understand that the care and precision that is offered to you while making a filter is valuable. Things get missed when you don't have down time. For example, in my flat white list above, I forgot to empty the drip tray which gets full from the three flushes I do. Something that often gets missed in the real world. Much like my pipelines failing on linting issues - something that happens too often when I'm moving fast.</p>
+<p>So I force that into my workflow. My terminal is running full screen and my tmux pane usage is kept to a minimum to avoid biting off too much work. In fact most applications I use run full screen (not macos full screen because that's ass) on their own desktops. I like to keep my flow state active with the choreography of a keyboard driven workflow with vim and tmux, but force limiting factors in there by keeping applications full screen. Focusing my attention into one thing at time.</p>
+<p><em>Edited with Claude code</em></p>
+
+  </main>
+  <p>
+        Tags:
+          <a href="https://danwilson.co/tags/lpt/">#lpt</a>
+  </p>
+<footer>
+  Built using <a href="https://www.getzola.org/">Zola</a> skinned like <a href="https://codeberg.org/alanpearce/zola-bearblog">Bear</a>
+  <br>
+  <a href="https://bearblog.dev/">Not powered by Bear ʕ•ᴥ•ʔ</a>
+</footer>
+<script data-goatcounter="https://wlsn.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first web project | $ man dwlsn</title>
+  <meta name="title" content="My first web project">
+<meta name="description" content="Personal website of Dan Wilson the Software Engineer">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+  
+  <link rel="alternate" type="application/atom+xml" title="$ man dwlsn" href="https://danwilson.co/atom.xml">
+  <style>
+    :root {
+    --width: 800px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  nav span.active {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  pre code {
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+    overflow-x: auto;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  /* blog post list */
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+  .tags {
+    font-size: smaller;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+  <a href="https://danwilson.co/" class="title">
+    <h1>$ man dwlsn</h1>
+  </a>
+  <nav aria-label="site">
+      <a href="https://danwilson.co/about/">about</a>
+      <a href="https://danwilson.co/cv/">cv</a>
+      <a href="https://danwilson.co/posts/">posts</a>
+      <a href="https://danwilson.co/now/">now</a>
+      <a href="https://danwilson.co/ideas/">ideas</a>
+      <a href="https://danwilson.co/colophon/">colophon</a>
+  </nav>
+</header>
+<h1>My first web project</h1>
+      <p>
+        <i>
+          <time datetime="2021-05-03T00:00:00+00:00" pubdate>03 May 2021</time>
+        </i>
+      </p>
+  <main>
+    <p>I was shocked to realise that I've been writing code for 10 years now. I remember the first web project I took on. My college class was set out to create a website for a client. By client they meant some local business that needed a brochure website. I had other ideas so I went straight to my film maker friend Lewis Hancock. One of the requirements was to get paid for your work. Lewis, being a film maker, had no money. And me, being a good friend, wanted to make it fair. The deal was set; one website for one copy of Halo 3: ODST. The worst Halo game ever.</p>
+<span id="continue-reading"></span>
+<p>Building this website set me on a path of wanting to master the web. Going on to study web application development at university, graduting and getting a job building web sites for a local advertising agency. Looking back at my time there I came to the conclusion that the best thing I built there was a coffee cam that alerted slack where there was fresh coffe. It became clear that I wanted to build more than just brochures. I took some time off work to travel and worked on my skills for building bigger applications. Landing back in the UK I was then given the opportunity to build such applicatoins for money.</p>
+<p>But I find myself here again, working with Lewis on a new adventure into the metaverse. The first crypto related project I built; The Cabbage Patch (don't open on mobile, RIP your data) A collection of artwork by a small community of optimist. Built using NFT Glitch (Made by an optimist Iain Nash) and published to IPFS. The last few months have been a whirlwind tour of crypto, something I've been interested in for a long time but only recently learnt the full potential of. I'm excited to get working on some projects and master the web 3.0.</p>
+<p>Want to continue the conversation? Social links are down below.</p>
+
+  </main>
+  <p>
+        Tags:
+          <a href="https://danwilson.co/tags/personal/">#personal</a>
+  </p>
+<footer>
+  Built using <a href="https://www.getzola.org/">Zola</a> skinned like <a href="https://codeberg.org/alanpearce/zola-bearblog">Bear</a>
+  <br>
+  <a href="https://bearblog.dev/">Not powered by Bear ʕ•ᴥ•ʔ</a>
+</footer>
+<script data-goatcounter="https://wlsn.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>
