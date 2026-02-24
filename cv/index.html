@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>curriculum vitae | $ man dwlsn</title>
+  <meta name="title" content="curriculum vitae">
+<meta name="description" content="Personal website of Dan Wilson the Software Engineer">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+  
+  <link rel="alternate" type="application/atom+xml" title="$ man dwlsn" href="https://danwilson.co/atom.xml">
+  <style>
+    :root {
+    --width: 800px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  nav span.active {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  pre code {
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+    overflow-x: auto;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  /* blog post list */
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+  .tags {
+    font-size: smaller;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+  <a href="https://danwilson.co/" class="title">
+    <h1>$ man dwlsn</h1>
+  </a>
+  <nav aria-label="site">
+      <a href="https://danwilson.co/about/">about</a>
+      <a href="https://danwilson.co/cv/">cv</a>
+      <a href="https://danwilson.co/posts/">posts</a>
+      <a href="https://danwilson.co/now/">now</a>
+      <a href="https://danwilson.co/ideas/">ideas</a>
+      <a href="https://danwilson.co/colophon/">colophon</a>
+  </nav>
+</header>
+<h1>curriculum vitae</h1>
+  <main>
+    <h2 id="tldr">tldr</h2>
+<ul>
+<li>A CV defined in YAML using the <a href="https://yamlresume.dev/">YAMLResume spec</a></li>
+<li>Rendered into a pdf using rhe <a href="https://yamlresume.dev/docs/installation#docker-users">YAML Resume CLI</a></li>
+<li>Accessabile via an API using FastAPI</li>
+</ul>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://github.com/danwlsn/cv/blob/main/pdf/cv-latest.pdf">Latest PDF</a></li>
+<li><a href="https://cv.danwilson.co">CV API</a> and <a href="https://cv.danwilson.co/docs">CV API documentation</a></li>
+<li><a href="https://github.com/danwlsn/cv/">GitHub repository</a></li>
+</ul>
+<h2 id="why">Why?</h2>
+<h3 id="long-answer">Long answer</h3>
+<p>Before LLMs were mainstream and people involved with hiring process read CVs, I made my CV fit on one page. Save the person time, gain brownie points. However with the rise of using Ai to process CVs faster this approach failed as I had to cut out a lot of content from the CV to fit it on one page.</p>
+<p>The last iteration of my CV contained a <code>robots.txt</code> section to combat Ai reviewing of CVs by adding a list of keywords I imagined the Ai was set to monitor. This was an approach from a defensive standpoint.</p>
+<p>With the progression of Ai technologies and my exposure to that, I wanted to switch to an offensive approach. Use the Ai for my CV. I had an idea for something like an Ai Agent or MCP for my CV that I could use to build tailored CVs for job applications. And the first step in that, is an API.</p>
+<h3 id="short-answer">Short answer</h3>
+<p>For fun</p>
+<h2 id="reasoning">Reasoning</h2>
+<h3 id="yamlresume-or-jsonresume">YAMLResume or JSONResume</h3>
+<ul>
+<li>YAML is nicer to write and maintain</li>
+</ul>
+<h3 id="fastapi-or-flask">FastAPI or Flask</h3>
+<ul>
+<li>Open API docs out of the box allowing for easier integration with an Agent</li>
+</ul>
+<h2 id="cv-yaml">cv.yaml</h2>
+<iframe frameborder="0" scrolling="no" style="width:100%; height:618px;" allow="clipboard-write" src="https://emgithub.com/iframe.html?target=https%3A%2F%2Fgithub.com%2Fdanwlsn%2Fcv%2Fblob%2Fmain%2Fcv.yaml&style=base16%2Fdark-violet&type=code&showBorder=on&showLineNumbers=on&showFullPath=on&maxHeight=600"></iframe>
+
+  </main>
+  <p>
+  </p>
+<footer>
+  Built using <a href="https://www.getzola.org/">Zola</a> skinned like <a href="https://codeberg.org/alanpearce/zola-bearblog">Bear</a>
+  <br>
+  <a href="https://bearblog.dev/">Not powered by Bear ʕ•ᴥ•ʔ</a>
+</footer>
+<script data-goatcounter="https://wlsn.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>

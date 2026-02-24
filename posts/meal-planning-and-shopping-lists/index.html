@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>meal planning and shopping lists | $ man dwlsn</title>
+  <meta name="title" content="meal planning and shopping lists">
+<meta name="description" content="Personal website of Dan Wilson the Software Engineer">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+  
+  <link rel="alternate" type="application/atom+xml" title="$ man dwlsn" href="https://danwilson.co/atom.xml">
+  <style>
+    :root {
+    --width: 800px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  nav span.active {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  pre code {
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+    overflow-x: auto;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  /* blog post list */
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+  .tags {
+    font-size: smaller;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+  <a href="https://danwilson.co/" class="title">
+    <h1>$ man dwlsn</h1>
+  </a>
+  <nav aria-label="site">
+      <a href="https://danwilson.co/about/">about</a>
+      <a href="https://danwilson.co/cv/">cv</a>
+      <a href="https://danwilson.co/posts/">posts</a>
+      <a href="https://danwilson.co/now/">now</a>
+      <a href="https://danwilson.co/ideas/">ideas</a>
+      <a href="https://danwilson.co/colophon/">colophon</a>
+  </nav>
+</header>
+<h1>meal planning and shopping lists</h1>
+      <p>
+        <i>
+          <time datetime="2025-10-14T00:00:00+00:00" pubdate>14 Oct 2025</time>
+        </i>
+      </p>
+  <main>
+    <p>Since the start of my digital life, a problem I have always tried to solve with technology is planning my weekly meals and turning that into a shopping list. I've been around the houses with this one from trying to outsource to a virtual assistant (they refused the task) to a complex trello system. Over the years, there have been a few iterations of this on trello but my favourite was when I managed my cupboards on there. I had the entire contents of my kitchen as cards on a trello board. When I would finish something, I could move it into the "To buy" list and that was my shopping list. The second was having recipe cards that you could move into a weekly plan list, and then some auto magic would bring all the ingredients in to a shopping list.</p>
+<p>Recently, the system has been stripped back to a single shared note. Each week we list out a few meals. We have a fairly static list of things we buy each week, separated by shop section. Then we add the ingredients from each meal to the shopping list. Easy.</p>
+<p>Some of the problems the current systems faces are:</p>
+<ul>
+<li>We are usually rushing the meal plan/shopping list creation step 30 minutes before we're going to the supermarket</li>
+<li>We have some regular meals that we're hitting more than we should be</li>
+<li>I beleive there's not enough protein in our diets</li>
+</ul>
+<p>When you're holding a hammer, everything looks like a nail. And the current hammer I'm holding is an LLM. I'm also holding my grudge against the VA I tried to hire. I want to show them this task is so simple even a robot can do it.</p>
+<h2 id="the-prompt">The prompt</h2>
+<iframe name="meal-planning-prompt" width="100%" height="400px" src="https://paste.lol/wlsn/meal-planning-prompt" marginwidth="0" marginheight="0" style="border:0px none #ffffff;"></iframe>
+<p>The key parts are:</p>
+<ul>
+<li>planning some meals from new recipes and favourites of ours that fit the balance of calories and macros over the course of a day based on some context
+<ul>
+<li>vegetarian</li>
+<li>favourite cuisines</li>
+<li>cooking equipment restrictions</li>
+</ul>
+</li>
+<li>create artifacts (I'm using claude, not sure what other LLMs use for this) for each recipe so they are easier to find when cooking</li>
+<li>building a shopping list of the core ingredients and removing the pantry items we usually have in, but still showing us what pantry items we need to have in case we have run out of those</li>
+<li>putting the shopping list into the categories which are in order of our route around the shop</li>
+</ul>
+<p>The output can then be pasted into our shared note, formatted a little, and used in the shop. At first my girlfriend was skeptical ("How does it know what we like?") but when it suggested Thai peanut salad for lunch she was sold. I like that because it's an LLM you can ask it do things on top of the instruction. I have a trigger phrase but I can add to that:</p>
+<ul>
+<li>we're out of soy sauce so add that to the recipe</li>
+<li>we have friends coming over this weekend, so plan a special meal for them and add a bottle of wine to the list</li>
+<li>let's have Thai salad for every meal</li>
+</ul>
+
+  </main>
+  <p>
+        Tags:
+          <a href="https://danwilson.co/tags/ai/">#ai</a>
+  </p>
+<footer>
+  Built using <a href="https://www.getzola.org/">Zola</a> skinned like <a href="https://codeberg.org/alanpearce/zola-bearblog">Bear</a>
+  <br>
+  <a href="https://bearblog.dev/">Not powered by Bear ʕ•ᴥ•ʔ</a>
+</footer>
+<script data-goatcounter="https://wlsn.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>

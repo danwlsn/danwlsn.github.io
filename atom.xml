@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>$ man dwlsn</title>
+    <subtitle>Personal website of Dan Wilson the Software Engineer</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://danwilson.co/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://danwilson.co"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-02-23T00:00:00+00:00</updated>
+    <id>https://danwilson.co/atom.xml</id>
+    <entry xml:lang="en">
+        <title>meal planning part 2</title>
+        <published>2026-02-23T00:00:00+00:00</published>
+        <updated>2026-02-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/meal-planning-pt2/"/>
+        <id>https://danwilson.co/posts/meal-planning-pt2/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/posts/meal-planning-pt2/">&lt;p&gt;A follow-on from &lt;a href=&quot;https:&#x2F;&#x2F;danwilson.co&#x2F;posts&#x2F;meal-planning-and-shopping-lists&#x2F;&quot;&gt;meal planning and shopping lists&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I have been running with the following prompt with Claude for the last 3 months now. And it worked. I was able to run the prompt minutes before leaving the house, answering some questions and paste the result into a shared note between me and my girlfriend. Our lunches were elevated beyond cheese butties or scrambled eggs. The bulk prepping of a salad for a few days for lunch was also a time saver. We were time rich (lol not. I have a baby). But we had become cash poor. These healthy lunches were costing us quite a bit. I blamed the cost of living for this but over the last couple of weeks my girlfriend decided to do the meal plan and shopping list by hand. She was able to plan similar lunches for us but bring the cost down.&lt;&#x2F;p&gt;
+&lt;p&gt;Another issue was that recipes were repeating. Well, not 100% but you can only have &quot;roasted Moroccan vegetables and couscous&quot; so many ways. Recipes were out of sync with proportions. It was good, but it could be better.&lt;&#x2F;p&gt;
+&lt;p&gt;I had toyed with the idea of setting up a Skill that could pull and push from a supabase database. Storing recipes in there so I could manage the ratios a bit better. Turns out, Skills can&#x27;t reach the internet. Well, they can reach github so maybe I could store an sqlite db there and retrieve it at the start of the skill. Did I mention I had a baby? I put the idea down.&lt;&#x2F;p&gt;
+&lt;p&gt;In the back of my mind I thought N8N could do this for me. Hook it up to my mealie service, pull ratioed recipes, build a shopping list, email the plan. Remember that baby? Then a new player entered that chat: OpenClaw. People where saying it had replaced N8N for them. I thought why not give it a go. It comes bundled with a skill builder and this morning I was able to give it the mealie API docs, ask it to build a skill, restarted the server, &quot;suggest something for dinner and add it to the meal plan&quot;. Time to play with the baby.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>flow state</title>
+        <published>2025-11-06T00:00:00+00:00</published>
+        <updated>2025-11-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/flow-state/"/>
+        <id>https://danwilson.co/posts/flow-state/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/posts/flow-state/">&lt;p&gt;I make two coffees every morning. I make one filter coffee for me and my girlfriend to enjoy in bed, and then I make a flat white for us to enjoy later. The two methods of making each coffee is very different. For those who don&#x27;t know, I&#x27;ll describe briefly:&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;filter&quot;&gt;Filter:&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Put the kettle on and grind the beans&lt;&#x2F;li&gt;
+&lt;li&gt;Prepare the V60 and the jug&lt;&#x2F;li&gt;
+&lt;li&gt;Pour 100g of boiling water over the grounds and stir&lt;&#x2F;li&gt;
+&lt;li&gt;Pour another 200g of water over the grounds, stir, and wait to drain&lt;&#x2F;li&gt;
+&lt;li&gt;Pour another 200g of water over the grounds, stir, and wait to drain&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;flat-white&quot;&gt;Flat white&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Start the espresso machine&lt;&#x2F;li&gt;
+&lt;li&gt;Weigh out 2 lots of 18g beans&lt;&#x2F;li&gt;
+&lt;li&gt;Grind the first batch of coffee and pre-heat the machine&lt;&#x2F;li&gt;
+&lt;li&gt;Load the basket, tamp, and pull the first shot&lt;&#x2F;li&gt;
+&lt;li&gt;While the shot is on, grind the next batch of beans. Prepare the milk jug&lt;&#x2F;li&gt;
+&lt;li&gt;First shot finish, knock out and rinse the basket, and flush the machine&lt;&#x2F;li&gt;
+&lt;li&gt;Load the basket, tamp, and pull the second shot&lt;&#x2F;li&gt;
+&lt;li&gt;Second shot finish, knock out and rinse the basket, flush the machine&lt;&#x2F;li&gt;
+&lt;li&gt;Clean the machine&lt;&#x2F;li&gt;
+&lt;li&gt;Steam milk&lt;&#x2F;li&gt;
+&lt;li&gt;Clean the steam wand&lt;&#x2F;li&gt;
+&lt;li&gt;Pour the milk&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;I find these two rituals very different in nature. For the filter coffee, each step gradually leads into the next. Allowing you to fully focus on each step in hand. However, there&#x27;s some amount of down time. Boiling the kettle takes longer than preparing the beans and the jug. 200g of water can take a couple of minutes to drain through. There&#x27;s lulls.&lt;&#x2F;p&gt;
+&lt;p&gt;Flat white, you are usually doing a couple of things at any given time. You have just enough time to prepare the next shot, maybe wipe a surface, and your shot is done. It&#x27;s a fast paced choreography. Lots of buttons to press, lots of things to do. While it&#x27;s a lot of well timed beats to hit, those beats are consistent. The grind time is the same. The shot time is the same. The buttons are in the same place each time. This reminds me of vim motions. I have to press a few keys to change inside quotes, but &lt;code&gt;ci&quot;&lt;&#x2F;code&gt; is muscle memory - the keys are always in the same position on my keyboard.&lt;&#x2F;p&gt;
+&lt;p&gt;I find flow state in the flat white easier than the filter. And that maps to my development environment. I like Vim because there&#x27;s buttons to press. I like tmux because i can run something, switch to another pane, and do something else while the other thing is running. I&#x27;m a keyboard centric person so I can do things &lt;em&gt;blazingly&lt;&#x2F;em&gt; fast.&lt;&#x2F;p&gt;
+&lt;p&gt;But at the same time, I understand that the care and precision that is offered to you while making a filter is valuable. Things get missed when you don&#x27;t have down time. For example, in my flat white list above, I forgot to empty the drip tray which gets full from the three flushes I do. Something that often gets missed in the real world. Much like my pipelines failing on linting issues - something that happens too often when I&#x27;m moving fast.&lt;&#x2F;p&gt;
+&lt;p&gt;So I force that into my workflow. My terminal is running full screen and my tmux pane usage is kept to a minimum to avoid biting off too much work. In fact most applications I use run full screen (not macos full screen because that&#x27;s ass) on their own desktops. I like to keep my flow state active with the choreography of a keyboard driven workflow with vim and tmux, but force limiting factors in there by keeping applications full screen. Focusing my attention into one thing at time.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Edited with Claude code&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>October 2025</title>
+        <published>2025-10-23T00:00:00+00:00</published>
+        <updated>2025-10-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/now/oct-2025/"/>
+        <id>https://danwilson.co/now/oct-2025/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/now/oct-2025/">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Reading&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Since coming back from the Czech Republic and continuing with house renovations I haven&#x27;t had the time for reading&lt;&#x2F;li&gt;
+&lt;li&gt;I would like to get back to &lt;a href=&quot;https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;22155.Let_My_People_Go_Surfing&quot;&gt;Let My People Go Surfing&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Working&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Exploring Claude Code and how it can work for me&lt;&#x2F;li&gt;
+&lt;li&gt;So far, it&#x27;s proved useful&lt;&#x2F;li&gt;
+&lt;li&gt;However, I still have the same cycle with AI; going from &quot;this thing is great&quot; to &quot;this thing sucks&quot; very quickly&lt;&#x2F;li&gt;
+&lt;li&gt;For side projects I&#x27;ve really enjoyed the reduced mental load that it offers which has lead to me working on them in the evening&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Life&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Coming into Autumn in the UK means it&#x27;s surfing season&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>claude tasks workflow</title>
+        <published>2025-10-20T00:00:00+00:00</published>
+        <updated>2025-10-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/claude-tasks-workflow/"/>
+        <id>https://danwilson.co/posts/claude-tasks-workflow/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/posts/claude-tasks-workflow/">&lt;p&gt;I&#x27;ve been experimenting with Claude Code recently. I&#x27;d say I was in the &quot;shitty intern&quot; camp at the moment where I treat claude like an intern and I hand off things I don&#x27;t want to do but I know they will be able to execute. When I did my first internship, I was tasked with testing how the site rendered in Internet Explorer. While IE is dead and gone, we still need to write tests. I recently joined a project that had about 5 tests total.&lt;&#x2F;p&gt;
+&lt;p&gt;Writing some of the unit tests was my first time using claude, so it was a lot of prompting and back and forth conversation. The main area it would fall down on was when I would get over confident in its ability and prompt something like &quot;now fill in &lt;strong&gt;all&lt;&#x2F;strong&gt; the tests&quot;. It couldn&#x27;t really handle more than one component at a time. So that&#x27;s what I did, I went through component by component saying something to the effect of &quot;now cover this component&quot;. Now I&#x27;m working on integration tests, I took a different approach.&lt;&#x2F;p&gt;
+&lt;p&gt;Someone shared in chat at work having a base &lt;code&gt;.claude&lt;&#x2F;code&gt; directory that we could all share. This was my first time hearing about this directory and what it could do. I thought custom commands and tasks would be a great fit for this repetitive cycle of testing components. Here&#x27;s how it worked.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;plan-command&quot;&gt;Plan command&lt;&#x2F;h2&gt;
+&lt;p&gt;I wrote a custom plan command that I could use to draft a plan of the work that needs to be done with claude. I had the ticket in Jira setup so that each router that needs testing had its own ticket, so I could reference that in the claude task file. I then filled out some of the task file by hand using the information from Jira. I then used my plan command to get claude to fill out the rest.&lt;&#x2F;p&gt;
+&lt;iframe name=&quot;claude-plan&quot; width=&quot;100%&quot; height=&quot;400px&quot; src=&quot;https:&#x2F;&#x2F;paste.lol&#x2F;wlsn&#x2F;claude-plan.md&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; style=&quot;border:0px none #ffffff;&quot;&gt;&lt;&#x2F;iframe&gt;
+&lt;p&gt;After I have the plan I can then sense check it myself and get another LLM to check over it as well. Mark your own homework, amiright?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;execute-command&quot;&gt;Execute command&lt;&#x2F;h2&gt;
+&lt;p&gt;After I&#x27;m happy with the plan document, I can then get claude to execute the plan with &lt;code&gt;&#x2F;execute [ticket-number]&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;iframe name=&quot;claude-execute&quot; width=&quot;100%&quot; height=&quot;400px&quot; src=&quot;https:&#x2F;&#x2F;paste.lol&#x2F;wlsn&#x2F;claude-execute.md&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; style=&quot;border:0px none #ffffff;&quot;&gt;&lt;&#x2F;iframe&gt;
+&lt;p&gt;Having these documents allow other developers to see what I was asking for, but it also allows me to ask claude to create a new task document and update the contents for a new router. It allows me to keep a lot of the requirements the same (test data control, what&#x27;s out of scope) and have consistent outputs from claude code. It&#x27;s worked really well and I&#x27;ve been less tempted to ask it to &quot;fill in all the tests&quot;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>meal planning and shopping lists</title>
+        <published>2025-10-14T00:00:00+00:00</published>
+        <updated>2025-10-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/meal-planning-and-shopping-lists/"/>
+        <id>https://danwilson.co/posts/meal-planning-and-shopping-lists/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/posts/meal-planning-and-shopping-lists/">&lt;p&gt;Since the start of my digital life, a problem I have always tried to solve with technology is planning my weekly meals and turning that into a shopping list. I&#x27;ve been around the houses with this one from trying to outsource to a virtual assistant (they refused the task) to a complex trello system. Over the years, there have been a few iterations of this on trello but my favourite was when I managed my cupboards on there. I had the entire contents of my kitchen as cards on a trello board. When I would finish something, I could move it into the &quot;To buy&quot; list and that was my shopping list. The second was having recipe cards that you could move into a weekly plan list, and then some auto magic would bring all the ingredients in to a shopping list.&lt;&#x2F;p&gt;
+&lt;p&gt;Recently, the system has been stripped back to a single shared note. Each week we list out a few meals. We have a fairly static list of things we buy each week, separated by shop section. Then we add the ingredients from each meal to the shopping list. Easy.&lt;&#x2F;p&gt;
+&lt;p&gt;Some of the problems the current systems faces are:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;We are usually rushing the meal plan&#x2F;shopping list creation step 30 minutes before we&#x27;re going to the supermarket&lt;&#x2F;li&gt;
+&lt;li&gt;We have some regular meals that we&#x27;re hitting more than we should be&lt;&#x2F;li&gt;
+&lt;li&gt;I beleive there&#x27;s not enough protein in our diets&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;When you&#x27;re holding a hammer, everything looks like a nail. And the current hammer I&#x27;m holding is an LLM. I&#x27;m also holding my grudge against the VA I tried to hire. I want to show them this task is so simple even a robot can do it.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-prompt&quot;&gt;The prompt&lt;&#x2F;h2&gt;
+&lt;iframe name=&quot;meal-planning-prompt&quot; width=&quot;100%&quot; height=&quot;400px&quot; src=&quot;https:&#x2F;&#x2F;paste.lol&#x2F;wlsn&#x2F;meal-planning-prompt&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; style=&quot;border:0px none #ffffff;&quot;&gt;&lt;&#x2F;iframe&gt;
+&lt;p&gt;The key parts are:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;planning some meals from new recipes and favourites of ours that fit the balance of calories and macros over the course of a day based on some context
+&lt;ul&gt;
+&lt;li&gt;vegetarian&lt;&#x2F;li&gt;
+&lt;li&gt;favourite cuisines&lt;&#x2F;li&gt;
+&lt;li&gt;cooking equipment restrictions&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;create artifacts (I&#x27;m using claude, not sure what other LLMs use for this) for each recipe so they are easier to find when cooking&lt;&#x2F;li&gt;
+&lt;li&gt;building a shopping list of the core ingredients and removing the pantry items we usually have in, but still showing us what pantry items we need to have in case we have run out of those&lt;&#x2F;li&gt;
+&lt;li&gt;putting the shopping list into the categories which are in order of our route around the shop&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The output can then be pasted into our shared note, formatted a little, and used in the shop. At first my girlfriend was skeptical (&quot;How does it know what we like?&quot;) but when it suggested Thai peanut salad for lunch she was sold. I like that because it&#x27;s an LLM you can ask it do things on top of the instruction. I have a trigger phrase but I can add to that:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;we&#x27;re out of soy sauce so add that to the recipe&lt;&#x2F;li&gt;
+&lt;li&gt;we have friends coming over this weekend, so plan a special meal for them and add a bottle of wine to the list&lt;&#x2F;li&gt;
+&lt;li&gt;let&#x27;s have Thai salad for every meal&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Office</title>
+        <published>2025-09-29T00:00:00+00:00</published>
+        <updated>2025-09-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/the-office/"/>
+        <id>https://danwilson.co/posts/the-office/</id>
+        
+        <summary type="html">&lt;p&gt;For the last two and half weeks I&#x27;ve been working from the Czech Republic. My usually place of work is my home office in Wales. While my partner&#x27;s mum does have a home office, it lacks the things I require to get my work done; a stable internet connection.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>September 2024</title>
+        <published>2025-09-22T00:00:00+00:00</published>
+        <updated>2025-09-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/now/sept-2025/"/>
+        <id>https://danwilson.co/now/sept-2025/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/now/sept-2025/">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Reading - &lt;a href=&quot;https:&#x2F;&#x2F;www.goodreads.com&#x2F;book&#x2F;show&#x2F;22155.Let_My_People_Go_Surfing&quot;&gt;Let My People Go Surfing&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Patagonia founder Yvon Chouinard recalls his days starting the company&lt;&#x2F;li&gt;
+&lt;li&gt;It&#x27;s getting my psyched on using my skills to better the world again&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Working - Building clients projects in Google Cloud&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Life - Raising my son as best I can&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;2025 was the year I became a father&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>don&#x27;t be a slop artist</title>
+        <published>2025-04-07T00:00:00+00:00</published>
+        <updated>2025-04-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/dont-be-a-slop-artist/"/>
+        <id>https://danwilson.co/posts/dont-be-a-slop-artist/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/posts/dont-be-a-slop-artist/">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Slop artist&lt;&#x2F;strong&gt;&lt;br&gt;
+&lt;em&gt;Noun: informal&lt;&#x2F;em&gt;&lt;br&gt;
+A person who passes off Ai output as their own work&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Okay so AI isn&#x27;t going away, so how do we use this tool ethically? I&#x27;m not talking about GPU hoarding, electricity prices, or SORA 2 level of ethics. More of a friendly colleague trying to get more work done for the team kind of ethics.&lt;&#x2F;p&gt;
+&lt;p&gt;A while back I remember seeing an article (and the link has left me) titled something like &quot;Your AI code has a smell&quot;. And now AI coding tools are becoming more prevalent and easier to use, I&#x27;m starting to smell the AI code in some reviews I&#x27;ve done. But it&#x27;s going beyond code reviews. I&#x27;m smelling AI in chat responses, design documents and documentation contributions.&lt;&#x2F;p&gt;
+&lt;p&gt;Here&#x27;s why this matters: when you pass off AI output as your own work, you&#x27;re creating several problems. First, the team can&#x27;t distinguish between your understanding and the AI&#x27;s output. If something breaks or needs clarification later, we need to know who actually understands the system. Second, you&#x27;re missing learning opportunities. That AI-generated code you didn&#x27;t review properly? You&#x27;re now responsible for maintaining it without understanding it. Third, it erodes trust. Once someone realizes you&#x27;re passing off AI work as your own, they&#x27;ll question everything you submit.&lt;&#x2F;p&gt;
+&lt;p&gt;The thing is, using AI as a tool is completely fine. It&#x27;s no different than using Stack Overflow, documentation, or asking a colleague. The difference is honesty. When you reference documentation, you cite it. When a colleague helps, you acknowledge them. AI assistance deserves the same transparency.&lt;&#x2F;p&gt;
+&lt;p&gt;I came across &lt;a href=&quot;https:&#x2F;&#x2F;notbyai.fyi&#x2F;&quot;&gt;an interesting badge&lt;&#x2F;a&gt; the other day. At first I thought &quot;how silly, who needs a badge for this?&quot; But the more I see AI slop in pull requests and design docs, the more I understand the impulse. When you can&#x27;t tell what someone actually understands versus what they&#x27;ve copied from ChatGPT, how do you know they can maintain it? How do you know they&#x27;ve thought through the edge cases?&lt;&#x2F;p&gt;
+&lt;p&gt;So don&#x27;t be a slop artist. Own your use of AI.&lt;&#x2F;p&gt;
+&lt;p&gt;The goal isn&#x27;t to avoid AI. It&#x27;s to be honest about what thought you&#x27;ve put in and where you got help. Your colleagues will respect you more for it.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;em&gt;N.B (23&#x2F;10&#x2F;25): I wrote a rant post and told claude to &quot;fix it&quot; to get this out of my drafts&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>2024 Review</title>
+        <published>2025-01-09T00:00:00+00:00</published>
+        <updated>2025-01-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/2024-review/"/>
+        <id>https://danwilson.co/posts/2024-review/</id>
+        
+        <summary type="html">&lt;p&gt;I&#x27;m not sure I remember the last time I did one of these, but I&#x27;ve kept enough notes and had a big enough year that I feel like I have something to talk about here. Since getting a copy of Tools of Titan by Tim Ferriss I can&#x27;t stop thinking about the split of Healthy, Wealthy and Wise. It&#x27;s been my go to for categorisation of goals, habits, priorities. And I think it requires little explanation about what  each might entail. So I&#x27;ve used those as subheadings so you may skip what you like.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>August 2024</title>
+        <published>2024-08-08T00:00:00+00:00</published>
+        <updated>2024-08-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/now/aug-2024/"/>
+        <id>https://danwilson.co/now/aug-2024/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/now/aug-2024/">&lt;ul&gt;
+&lt;li&gt;Helping companies migrate services to Google Cloud&lt;&#x2F;li&gt;
+&lt;li&gt;Reading about Fear and Politics - &lt;a href=&quot;https:&#x2F;&#x2F;algore.com&#x2F;library&#x2F;the-assault-on-reason&quot;&gt;The Assault on Reason&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Building a homelab&lt;&#x2F;li&gt;
+&lt;li&gt;Working on &lt;a href=&quot;https:&#x2F;&#x2F;cragconditions.com&quot;&gt;Crag Conditions&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Monetary penalty box</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/ideas/penalty-box/"/>
+        <id>https://danwilson.co/ideas/penalty-box/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/ideas/penalty-box/">&lt;ul&gt;
+&lt;li&gt;Inspired by &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=d8heORFuGOY&quot;&gt;10 Bullets, #9: &quot;SACRIFICE TO LEATHERFACE&quot;. By Tom Sachs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Set up a box betwen an office or friends&lt;&#x2F;li&gt;
+&lt;li&gt;Set penalties for certain failures&lt;&#x2F;li&gt;
+&lt;li&gt;Allow users to easily pay into the penalty box&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Task management</title>
+        <published>2023-09-05T00:00:00+00:00</published>
+        <updated>2023-09-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/tasks/"/>
+        <id>https://danwilson.co/posts/tasks/</id>
+        
+        <summary type="html">&lt;p&gt;I&#x27;ve always had an interest in personal productivity. Up until you spend more time reading and learning about how to be productive than being productive. I would spend hours researching task managmnet apps and systems to only abandon them a few months down the line. The last time thought I decided to venture out and theorise about a system that would work for me, and here&#x27;s what I came up with.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>This page is designed to last</title>
+        <published>2023-08-22T00:00:00+00:00</published>
+        <updated>2023-08-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/designed-to-last/"/>
+        <id>https://danwilson.co/posts/designed-to-last/</id>
+        
+        <summary type="html">&lt;p&gt;I&#x27;ve had a blog or personal site for as long as I have been programming now. However it has never lasted. And in multiple aspects. The habit of writing posts and publishing them hasn&#x27;t lasted and the neither did the site. It&#x27;s changed domains, URLs, hosting providers, you name it.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>July 2023</title>
+        <published>2023-07-25T00:00:00+00:00</published>
+        <updated>2023-07-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/now/july-2023/"/>
+        <id>https://danwilson.co/now/july-2023/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/now/july-2023/">&lt;ul&gt;
+&lt;li&gt;Looking for a job that helps tackle climate change&lt;&#x2F;li&gt;
+&lt;li&gt;Updating this website&lt;&#x2F;li&gt;
+&lt;li&gt;Climbing hard&lt;&#x2F;li&gt;
+&lt;li&gt;Learning Go&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Anxiety Princess</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/ideas/anxiety-princess/"/>
+        <id>https://danwilson.co/ideas/anxiety-princess/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/ideas/anxiety-princess/">&lt;ul&gt;
+&lt;li&gt;A game about managing a Princesses Anxiety level&lt;&#x2F;li&gt;
+&lt;li&gt;Game world becomes less saturated as your anxiety level grows&lt;&#x2F;li&gt;
+&lt;li&gt;Characters become harder to read&#x2F;judge intentions&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>December 2022</title>
+        <published>2022-12-18T00:00:00+00:00</published>
+        <updated>2022-12-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/now/dec-2022/"/>
+        <id>https://danwilson.co/now/dec-2022/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/now/dec-2022/">&lt;ul&gt;
+&lt;li&gt;Starting a new job with DA Languages&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>November 2022</title>
+        <published>2022-11-21T00:00:00+00:00</published>
+        <updated>2022-11-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/now/nov-2022/"/>
+        <id>https://danwilson.co/now/nov-2022/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/now/nov-2022/">&lt;ul&gt;
+&lt;li&gt;Updating my website&lt;&#x2F;li&gt;
+&lt;li&gt;Looking for work&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>October 2021-2022</title>
+        <published>2022-10-01T00:00:00+00:00</published>
+        <updated>2022-10-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/now/oct-2022/"/>
+        <id>https://danwilson.co/now/oct-2022/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/now/oct-2022/">&lt;ul&gt;
+&lt;li&gt;betting on crypto&lt;&#x2F;li&gt;
+&lt;li&gt;recovering from burn out&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>PvP pomodoro</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/ideas/pvp-pomodoro/"/>
+        <id>https://danwilson.co/ideas/pvp-pomodoro/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/ideas/pvp-pomodoro/">&lt;ul&gt;
+&lt;li&gt;challenge friends who can do the most pomodoro cycles each day&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Read more poetry</title>
+        <published>2021-06-29T00:00:00+00:00</published>
+        <updated>2021-06-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/read-more-poetry/"/>
+        <id>https://danwilson.co/posts/read-more-poetry/</id>
+        
+        <summary type="html">&lt;p&gt;I used to find books very intimidating. It would take me a days or weeks to just make a dent in one. I used to not be able to see the light at the end of the tunnel, or the wisdom and knowledge that might be waiting for me in a few more chapters. It wasn&#x27;t until I decided to try reading A Game of Thrones that I got used to the discomfort of having a million pages to go. I couldn&#x27;t tell you how long it took me but something changed in my after reading that book.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cold showers</title>
+        <published>2021-05-06T00:00:00+00:00</published>
+        <updated>2021-05-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/cold-showers/"/>
+        <id>https://danwilson.co/posts/cold-showers/</id>
+        
+        <summary type="html">&lt;p&gt;A few years back while on holiday in France, I realised that if I washed my hair in a cold shower it would look great the next day. So for the next two weeks, I had a cold shower every morning. And of course, everyday was a great hair day. I was excited to continue my new hair routine when I got home but I soon found that cold showers in a cold country wasn&#x27;t easy. I quickly went back to hot showers and had to find a new way to get my hair to look good.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>My first web project</title>
+        <published>2021-05-03T00:00:00+00:00</published>
+        <updated>2021-05-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/my-first-web-project/"/>
+        <id>https://danwilson.co/posts/my-first-web-project/</id>
+        
+        <summary type="html">&lt;p&gt;I was shocked to realise that I&#x27;ve been writing code for 10 years now. I remember the first web project I took on. My college class was set out to create a website for a client. By client they meant some local business that needed a brochure website. I had other ideas so I went straight to my film maker friend Lewis Hancock. One of the requirements was to get paid for your work. Lewis, being a film maker, had no money. And me, being a good friend, wanted to make it fair. The deal was set; one website for one copy of Halo 3: ODST. The worst Halo game ever.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Food swaps for singles</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/ideas/single-food-swaps/"/>
+        <id>https://danwilson.co/ideas/single-food-swaps/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/ideas/single-food-swaps/">&lt;ul&gt;
+&lt;li&gt;Cooking for one sucks&lt;&#x2F;li&gt;
+&lt;li&gt;Tinder for batch made Food&lt;&#x2F;li&gt;
+&lt;li&gt;Swipe on peoples left overs, meet up and swap&lt;&#x2F;li&gt;
+&lt;li&gt;Enjoy tasty food&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Depop for books</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/ideas/depop-food-books/"/>
+        <id>https://danwilson.co/ideas/depop-food-books/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/ideas/depop-food-books/">&lt;ul&gt;
+&lt;li&gt;depop shines when find someone who sells clothes in a style you like&lt;&#x2F;li&gt;
+&lt;li&gt;Often book lovers who like similar authors will enjoy other authours enjoyed by the reader&lt;&#x2F;li&gt;
+&lt;li&gt;So depop for books&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>I hate not being good at things, but I don’t mind being “Okay” at everything</title>
+        <published>2019-02-11T00:00:00+00:00</published>
+        <updated>2019-02-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/okay-at-everything/"/>
+        <id>https://danwilson.co/posts/okay-at-everything/</id>
+        
+        <summary type="html">&lt;p&gt;I’ve always struggled with being bad at things. I’m notorious for it. But something happens to me when I’m terrible at something. I get this deep inner burn that say just one thing:&lt;&#x2F;p&gt;
+&lt;p&gt;“You need to the the best at this right now”&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>My golden child</title>
+        <published>2019-01-23T00:00:00+00:00</published>
+        <updated>2019-01-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Dan Wilson
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/posts/my-golden-child/"/>
+        <id>https://danwilson.co/posts/my-golden-child/</id>
+        
+        <summary type="html">&lt;p&gt;I built a coffee cam for my previous job at BJL. It was a Raspberry pi with a camera attached to it. A bash script would take a picture every thirty seconds and post the pictures to an API. The backend was run from Django. And this is where it gets interesting&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MobLog</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/ideas/moblog/"/>
+        <id>https://danwilson.co/ideas/moblog/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/ideas/moblog/">&lt;ul&gt;
+&lt;li&gt;Keep track of what you&#x27;ve been doing during mob programming sessions&lt;&#x2F;li&gt;
+&lt;li&gt;Invite your team members who participate in the mob&lt;&#x2F;li&gt;
+&lt;li&gt;Write a short snippet from what you achieved mob programming that day&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Long term bets</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://danwilson.co/ideas/long-term-bets/"/>
+        <id>https://danwilson.co/ideas/long-term-bets/</id>
+        
+        <content type="html" xml:base="https://danwilson.co/ideas/long-term-bets/">&lt;ul&gt;
+&lt;li&gt;Facilitate the transactions and validation of a long term bet between parties&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
